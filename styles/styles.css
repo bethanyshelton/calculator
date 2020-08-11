@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "PressStart2P";
+	src: url(/images/PressStart2P-Regular.ttf);
+}
+body {
+	background-image: url(/images/math.jpg);
+	background-size: cover;
+	background-color: #1c1b17;
+	background-attachment: fixed;
+	color: #dddddc;
+	font-family: "PressStart2P";
+	text-align: center;
+}
+
+h1 {
+	font-size: 1.25rem;
+}
+
+.screen {
+	width: 350px;
+	height: 400px;
+	background-color: #575651;
+	margin: auto;
+}
