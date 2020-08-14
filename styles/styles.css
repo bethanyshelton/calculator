@@ -1,24 +1,86 @@
+@import url(//db.onlinewebfonts.com/c/298785b76367ffb3d3803f03b2292123?family=ChalkDust);
+
 @font-face {
-	font-family: "PressStart2P";
-	src: url(/images/PressStart2P-Regular.ttf);
+	font-family: "ChalkDust";
+	src: url("//db.onlinewebfonts.com/t/298785b76367ffb3d3803f03b2292123.eot");
+	src: url("//db.onlinewebfonts.com/t/298785b76367ffb3d3803f03b2292123.eot?#iefix")
+			format("embedded-opentype"),
+		url("//db.onlinewebfonts.com/t/298785b76367ffb3d3803f03b2292123.woff2")
+			format("woff2"),
+		url("//db.onlinewebfonts.com/t/298785b76367ffb3d3803f03b2292123.woff")
+			format("woff"),
+		url("//db.onlinewebfonts.com/t/298785b76367ffb3d3803f03b2292123.ttf")
+			format("truetype"),
+		url("//db.onlinewebfonts.com/t/298785b76367ffb3d3803f03b2292123.svg#ChalkDust")
+			format("svg");
 }
+
 body {
 	background-image: url(/images/math.jpg);
 	background-size: cover;
 	background-color: #1c1b17;
 	background-attachment: fixed;
 	color: #dddddc;
-	font-family: "PressStart2P";
 	text-align: center;
+	font-family: "ChalkDust";
 }
 
 h1 {
-	font-size: 1.25rem;
+	font-size: 2.25rem;
+}
+
+.calculator {
+	width: 400px;
+	background-color: #575651;
+	margin: auto;
 }
 
 .screen {
-	width: 350px;
-	height: 400px;
-	background-color: #575651;
-	margin: auto;
+	width: 90%;
+	margin-top: 10px;
+	font-size: 1.5rem;
+	height: 70px;
+	border: none;
+	background-color: #252525;
+	font-family: "ChalkDust";
+	color: #dddddc;
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+button {
+	height: 80px;
+	width: 80px;
+	border: 0px;
+	border-radius: 50px;
+	font-family: "ChalkDust";
+	font-size: 2.5rem;
+	color: #252525;
+}
+
+button:hover {
+	background-color: #dddddc;
+}
+
+.operator {
+	color: #088632;
+}
+
+.all-clear {
+	background-color: #80066b;
+	color: #fff;
+}
+
+.all-clear:hover {
+	background-color: #971181;
+}
+
+.equal-sign {
+	background-color: #088632;
+	color: #fff;
+}
+
+.equal-sign:hover {
+	background-color: #149c42;
 }
