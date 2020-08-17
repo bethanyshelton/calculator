@@ -26,11 +26,11 @@ body {
 }
 
 h1 {
-	font-size: 2.25rem;
+	font-size: 2rem;
 }
 
 .calculator {
-	width: 400px;
+	width: 350px;
 	background-color: #575651;
 	margin: auto;
 }
@@ -50,13 +50,14 @@ h1 {
 }
 
 button {
-	height: 80px;
-	width: 80px;
+	height: 70px;
+	width: 70px;
 	border: 0px;
 	border-radius: 50px;
 	font-family: "ChalkDust";
 	font-size: 2.5rem;
 	color: #252525;
+	margin: auto;
 }
 
 button:hover {
@@ -70,6 +71,8 @@ button:hover {
 .all-clear {
 	background-color: #80066b;
 	color: #fff;
+	width: 140px;
+	grid-column: 1 / 3;
 }
 
 .all-clear:hover {
@@ -79,8 +82,30 @@ button:hover {
 .equal-sign {
 	background-color: #088632;
 	color: #fff;
+	height: 140px;
+	grid-area: 4 / 4 / 6 /5;
 }
 
 .equal-sign:hover {
 	background-color: #149c42;
+}
+
+.minus {
+	grid-area: 2 / 4 / 3 / 5;
+}
+
+.plus {
+	grid-area: 3 / 4 / 4 / 5;
+}
+
+.zero {
+	grid-area: 5 / 1 / 6 / 3;
+	width: 140px;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-row-gap: 10px;
+	padding: 10px;
 }
