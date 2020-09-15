@@ -1,3 +1,21 @@
+// display screen
+
+// create an array
+
+let displayArray = [];
+
+// listen for button clicks
+// figure out which button was clicked
+// push clicked button to array
+// display array on screen
+
+for (let i = 0; i < document.querySelectorAll("button").length; i++) {
+	document.querySelectorAll("button")[i].addEventListener("click", function () {
+		displayArray.push(document.querySelectorAll("button")[i].innerHTML);
+		document.querySelector("#display").value = displayArray;
+	});
+}
+
 // basic calculations
 
 // add
