@@ -16,7 +16,7 @@
 }
 
 body {
-	background-image: url(/images/math.jpg);
+	background-image: url(images/math.jpg);
 	background-size: cover;
 	background-color: #1c1b17;
 	background-attachment: fixed;
